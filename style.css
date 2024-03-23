@@ -1,0 +1,115 @@
+body {
+  background: rgb(13, 17, 23) !important;
+}
+.text-white {
+  color: white;
+}
+.ml-24 {
+  margin-left: 24px;
+}
+.f-s {
+  font-size: 32px;
+  margin-right: 8px;
+}
+.f4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.fsl-4 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 24px 0;
+}
+.p-40 {
+  padding: 0 40px;
+}
+.s-main {
+  padding: 24px;
+  margin: 0 315px;
+}
+.h1-a {
+  font-size: 72px !important;
+  line-height: 76px !important;
+  margin-bottom: 16px;
+  color: rgb(230, 237, 243);
+  font-weight: 700;
+}
+.h2-a {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-weight: 450;
+  margin-bottom: 32px;
+  color: rgb(110, 118, 129);
+}
+.btn-a {
+  font-size: 1.25rem;
+  color: black !important;
+  background: white;
+  width: 273px;
+  height: 56px;
+  font-weight: 500;
+}
+.h6-a {
+  font-size: 14px !important;
+  line-height: 20px !important;
+  padding-top: 16px;
+  font-weight: 400;
+}
+.a-main {
+  padding: 64px 24 4px 24px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.monospace {
+  font-family: monospace;
+}
+.h3-n {
+  margin-bottom: 8px;
+}
+.blu {
+  color: rgb(47, 129, 247);
+  margin-right: 8px;
+}
+.ab {
+  color: rgb(230, 237, 243);
+  word-spacing: 8px;
+}
+
+.c1 {
+  color: rgb(230, 237, 243);
+}
+.b-main {
+  padding: 0 101px;
+  margin-bottom: 40px;
+}
+.b-m {
+  height: 480px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: black;
+  font-weight: 500;
+  padding: 39px;
+  line-height: 41px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: -30px 8px 75px 8px rgba(67, 43, 79, 0.75);
+}
+.lh-10 {
+  line-height: 10px;
+}
+.mr-a {
+  margin-right: 10px;
+  color: green;
+}
+.m {
+  margin-right: 23px;
+  color: green;
+}
+
+.c2 {
+  color: rgb(110, 118, 129);
+}
+.ab-2 {
+  color: rgb(230, 237, 243);
+}
+.hidden {
+  overflow: hidden;
+}
