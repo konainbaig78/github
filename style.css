@@ -20,6 +20,10 @@ body {
   line-height: 20px;
   padding: 24px 0;
 }
+.ulh:hover{
+    padding-bottom: 0;
+    text-decoration: underline;
+}
 .p-40 {
   padding: 0 40px;
 }
@@ -48,6 +52,9 @@ body {
   width: 273px;
   height: 56px;
   font-weight: 500;
+}
+.btn-a:hover{
+    box-shadow:0 4px 7px rgba(255, 255, 255, 0.432) ;
 }
 .h6-a {
   font-size: 14px !important;
@@ -112,4 +119,11 @@ body {
 }
 .hidden {
   overflow: hidden;
+}
+.h5-mk{
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+margin-bottom: 32px;
+margin-top: 35px;
 }
