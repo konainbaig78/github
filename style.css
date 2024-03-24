@@ -291,10 +291,41 @@ footer > div {
   .text-st {
     text-align: start !important;
   }
+  .b-main {
+    padding: 0;
+  }
+ 
+  .hidden{
+    overflow: hidden;
+  }
+  .end{
+    margin-left: 40px;
+  }
+  .la{
+    margin-right: 9px !important;
+  }
+  .d-main{
+   margin: 0;
+  }
+  .h1-b{
+    font-size: 43px;
+    line-height: 53px;
+  }
+  .mw{
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  .fs-la{
+    font-size: 17px;
+  }
+  
+  
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .na {
     flex-wrap: nowrap !important;
+
   }
 
   .navbar-nav {
@@ -318,7 +349,18 @@ footer > div {
   .b-m {
     box-shadow: none;
   }
+  .hidden{
+    overflow: hidden;
+  }
+  .end{
+   margin: 191px !important;
+  }
+  .d-main{
+   margin: 0;
+  }
+  
 }
+
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .na {
     flex-wrap: nowrap !important;
@@ -336,4 +378,9 @@ footer > div {
   .text-st {
     text-align: start !important;
   }
+}
+@media screen and (min-width:1280) {
+    footer>div{
+        padding-top: 24px;
+    }
 }
