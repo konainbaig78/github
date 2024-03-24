@@ -248,7 +248,7 @@ footer > div {
 .list-style-none {
   list-style: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width:200) and (max-width: 480px) {
   .hidden {
     overflow: hidden;
   }
