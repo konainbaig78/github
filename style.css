@@ -352,8 +352,12 @@ footer > div {
   .hidden {
     overflow: hidden;
   }
+  .no{
+    justify-content: center;
+  }
+ 
   .end {
-    margin: 191px !important;
+    margin: 0; !important;
   }
   .d-main {
     margin: 0;
@@ -379,6 +383,9 @@ footer > div {
   .text-st {
     text-align: start !important;
   }
+  .no{
+    justify-content: center;
+  }
   .d-main {
     margin: 0;
   }
@@ -392,5 +399,8 @@ footer > div {
 @media screen and (min-width: 1280) {
   footer > div {
     padding-top: 24px;
+  }
+  .no{
+    justify-content: center;
   }
 }
