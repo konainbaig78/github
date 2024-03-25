@@ -248,7 +248,7 @@ footer > div {
 .list-style-none {
   list-style: none;
 }
-@media screen and (min-width:200) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .hidden {
     overflow: hidden;
   }
@@ -294,38 +294,38 @@ footer > div {
   .b-main {
     padding: 0;
   }
- 
-  .hidden{
+
+  .hidden {
     overflow: hidden;
   }
-  .end{
-    margin-left: 40px;
+  .no {
+    display: flex;
+    flex-direction: column;
   }
-  .la{
+  .end {
+    margin: 0 !important;
+  }
+  .la {
     margin-right: 9px !important;
   }
-  .d-main{
-   margin: 0;
+  .d-main {
+    margin: 0;
   }
-  .h1-b{
+  .h1-b {
     font-size: 43px;
     line-height: 53px;
   }
-  .mw{
+  .mw {
     display: flex;
     flex-direction: column;
- 
   }
-  .fs-la{
+  .fs-la {
     font-size: 17px;
   }
-  
-  
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .na {
     flex-wrap: nowrap !important;
-
   }
 
   .navbar-nav {
@@ -349,23 +349,24 @@ footer > div {
   .b-m {
     box-shadow: none;
   }
-  .hidden{
+  .hidden {
     overflow: hidden;
   }
-  .end{
-   margin: 191px !important;
+  .end {
+    margin: 191px !important;
   }
-  .d-main{
-   margin: 0;
+  .d-main {
+    margin: 0;
   }
-  
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .na {
     flex-wrap: nowrap !important;
   }
-
+  .hidden {
+    overflow: hidden;
+  }
   .navbar-nav {
     flex-direction: row;
   }
@@ -378,9 +379,18 @@ footer > div {
   .text-st {
     text-align: start !important;
   }
+  .d-main {
+    margin: 0;
+  }
+  .s-main {
+    margin: 0;
+  }
+  .end {
+    margin: 0;
+  }
 }
-@media screen and (min-width:1280) {
-    footer>div{
-        padding-top: 24px;
-    }
+@media screen and (min-width: 1280) {
+  footer > div {
+    padding-top: 24px;
+  }
 }
